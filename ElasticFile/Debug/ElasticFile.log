@@ -1,0 +1,28 @@
+﻿Build started 02.04.2014 23:11:14.
+     1>Project "C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\ElasticFile\ElasticFile.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр построения добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+     1>InitializeBuildStatus:
+         Creating "Debug\ElasticFile.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\ElasticFile.cpp src\TEFileCursor.cpp src\TEFileSectorsTable.cpp
+         TEFileCursor.cpp
+         ElasticFile.cpp
+     1>c:\users\1\documents\visual studio 2010\projects\elasticfileframework\elasticfile\src\elasticfile.cpp(10): warning C4355: this: использован в списке инициализации базового класса
+     1>c:\users\1\documents\visual studio 2010\projects\elasticfileframework\elasticfile\src\elasticfile.cpp(11): warning C4355: this: использован в списке инициализации базового класса
+         Создание кода...
+         Компиляция...
+         TEFileSectorsTable.cpp
+         Создание кода...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\lib\Debug\ElasticFile.lib" /NOLOGO Debug\ElasticFile.obj
+         Debug\TEFileCursor.obj
+         Debug\TEFileSectorsTable.obj
+         ElasticFile.vcxproj -> C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\lib\Debug\ElasticFile.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ElasticFile.unsuccessfulbuild".
+         Touching "Debug\ElasticFile.lastbuildstate".
+     1>Done Building Project "C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\ElasticFile\ElasticFile.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:03.81

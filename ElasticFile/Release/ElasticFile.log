@@ -1,0 +1,25 @@
+﻿Build started 02.04.2014 22:13:08.
+     1>Project "C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\ElasticFile\ElasticFile.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр построения добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+     1>InitializeBuildStatus:
+         Creating "Release\ElasticFile.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\ElasticFile.cpp src\TEFileCursor.cpp src\TEFileSectorsTable.cpp
+         ElasticFile.cpp
+     1>src\ElasticFile.cpp(10): warning C4355: this: использован в списке инициализации базового класса
+     1>src\ElasticFile.cpp(11): warning C4355: this: использован в списке инициализации базового класса
+         TEFileCursor.cpp
+         TEFileSectorsTable.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\lib\Release\ElasticFile.lib" /NOLOGO /LTCG Release\ElasticFile.obj
+         Release\TEFileCursor.obj
+         Release\TEFileSectorsTable.obj
+         ElasticFile.vcxproj -> C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\lib\Release\ElasticFile.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\ElasticFile.unsuccessfulbuild".
+         Touching "Release\ElasticFile.lastbuildstate".
+     1>Done Building Project "C:\Users\1\Documents\Visual Studio 2010\Projects\ElasticFileFramework\ElasticFile\ElasticFile.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:02.61
